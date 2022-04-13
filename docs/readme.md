@@ -1,4 +1,4 @@
-# Dictionary CLI 
+# Dictionary CLI [![Go](https://github.com/BetaPictoris/dict/actions/workflows/go.yml/badge.svg)](https://github.com/BetaPictoris/dict/actions/workflows/go.yml)
 View the dictionary through the CLI
 
 ![dict-final](https://user-images.githubusercontent.com/65696362/163287317-f2e6d271-7785-4baa-b8b0-ac69a63bba41.png)

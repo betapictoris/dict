@@ -1,6 +1,9 @@
 # Dictionary CLI 
 View the dictionary through the CLI
 
+![dict-final](https://user-images.githubusercontent.com/65696362/163287317-f2e6d271-7785-4baa-b8b0-ac69a63bba41.png)
+
+
 ## Installation
 ### From release
 ```bash

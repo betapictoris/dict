@@ -37,5 +37,5 @@ sudo make install                                   # Install Wiki CLI to "/usr/
 ### User install
 If you don't have access to `sudo` on your system you can install to your user's `~/.local/bin` directory with this command: 
 ```bash
-install -Dt ~/.local/bin -m 755 wiki
+install -Dt ~/.local/bin -m 755 dict
 ```

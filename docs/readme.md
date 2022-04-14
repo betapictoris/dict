@@ -32,6 +32,8 @@ git clone git@github.com:BetaPictoris/dict.git      # Clone the repository
 cd dict                                             # Change into the repository's directory
 make                                                # Build Wiki CLI
 sudo make install                                   # Install Wiki CLI to "/usr/local/bin" with the mode "755"
+# uninstall:
+sudo make uninstall
 ```
 
 ### User install

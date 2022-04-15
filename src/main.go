@@ -32,8 +32,12 @@ func main() {
 
     if len(os.Args) >= 2 {
         word = os.Args[1]
+
+        if len(os.Args) >= 3 {
+            lang = os.Args[2]
+        }
     } else {
-        log.Fatal("Usage: dict <Word>")
+        log.Fatal("Usage: dict <Word> [<Language>]")
     }
 
     resp, err := http.Get(parseWord(word))

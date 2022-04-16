@@ -1,5 +1,5 @@
 all:
-	go build -o dict ./src/main.go
+	go build -o dict ./main.go
 
 clean:
 	@if [ -f dict ] && [ -x dict ]; then rm dict; fi

@@ -1,4 +1,4 @@
-module betapictoris/dict
+module github.com/betapictoris/dict
 
 go 1.18
 

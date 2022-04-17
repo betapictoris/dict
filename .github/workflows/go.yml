@@ -26,4 +26,4 @@ jobs:
       with:
         # Artifact name
         name: Dictionary CLI
-        path: ./dict
+        path: ./build

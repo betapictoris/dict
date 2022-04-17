@@ -1,11 +1,11 @@
 all:
-	go build -o dict ./main.go
+	go build -o build/dict ./main.go
 
 clean:
-	@if [ -f dict ] && [ -x dict ]; then rm dict; fi
+	@if [ -f build ] && [ -x build ]; then rm build; fi
 
 install:
-	install -Dt /usr/local/bin -m 755 dict
+	install -Dt /usr/local/bin -m 755 build/dict
 
 uninstall:
 	rm /usr/local/bin/dict

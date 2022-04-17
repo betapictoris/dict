@@ -1,0 +1,5 @@
+Package: dict
+Version: 1.1.0
+Architecture: x86_64
+Maintainer: beta@mrhallway.me
+Description: View the dictionary through the CLI

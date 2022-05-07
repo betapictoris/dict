@@ -15,7 +15,7 @@ sudo install -Dt /usr/local/bin -m 755 dict                                    #
 
 If you're running Arch/Manjaro (or derivatives) you can install the git build from the AUR with your preferred AUR helper. e.g
 ```
-paru -S dict-git
+paru -Syu dict-git
 ```
 For all other distros, read below.
 
@@ -25,7 +25,7 @@ You need Go installed to build this program. You can install it from your distro
 
 ```bash
 # Arch/Manjaro (and derivatives)
-sudo pacman -S go
+sudo pacman -Syu go
 
 # Debian/Ubuntu (and derivatives)
 sudo apt install golang-go
